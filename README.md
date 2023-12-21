@@ -23,7 +23,8 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 
 
 ## Program
-```import math
+```
+import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -53,7 +54,8 @@ if (rho<1):
     print("Probability that the system is empty : %0.2f "%(1-rho))
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
-print("--------------------------------------------------------------")```
+print("--------------------------------------------------------------")
+```
 
 ## Output :
 ![image](https://github.com/harshiniyu/Muttiple-capacity-with-infinite-capacity/assets/144979786/60e77032-2a5c-4898-802b-0c06dbd5b084)
